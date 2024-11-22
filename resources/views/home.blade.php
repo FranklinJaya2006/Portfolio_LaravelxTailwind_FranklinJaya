@@ -79,7 +79,7 @@
   </div>
 </section>
 
-<section id="skills" class="flex justify-center bg-white py-10">
+<section id="skills" class="flex justify-center bg-[#ECF3F4] py-10">
   <div class="container mx-auto px-4 min-h-[50vh]">
     <h2 class="text-center text-4xl font-semibold text-[#1e3a8a] mb-16 mt-10">
       Skills
@@ -212,37 +212,45 @@
   </div>
 </section>
 
-<section id="project" class="bg-[#E6F4F1] py-20">
+<section id="project" class="bg-[#E2F4F6] py-20">
     <div class="container mx-auto px-4">
-      <h2 class="text-4xl font-semibold text-[#1e3a8a] text-center mb-12">My Projects</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
-        <!-- Project cards with hover effects -->
-        <div class="bg-white rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-duration-300">
-          <img src="{{ asset('images/Smurf mirror.jpeg') }}" alt="Smart Mirror" class="w-full h-48 object-cover">
-          <div class="p-6">
-            <h3 class="text-xl font-semibold text-[#1e3a8a] mb-2">Smart Mirror</h3>
-            <p class="text-gray-600">Mirror can help human life more easily.</p>
-          </div>
+        <h2 class="text-4xl font-semibold text-[#1e3a8a] text-center mb-4">My Projects</h2>
+        <!-- Garis dekorasi -->
+        <div class="flex justify-center items-center mb-12">
+            <div class="h-1 bg-black w-16"></div> <!-- Bagian depan -->
+            <div class="h-1 bg-blue-300 w-24 mx-2"></div> <!-- Bagian tengah -->
+            <div class="h-1 bg-black w-16"></div> <!-- Bagian belakang -->
         </div>
         
-        <div class="bg-white rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-duration-300">
-          <img src="{{ asset('images/Track.jpeg') }}" alt="Weather Track App" class="w-full h-48 object-cover">
-          <div class="p-6">
-            <h3 class="text-xl font-semibold text-[#1e3a8a] mb-2">Flutter Weather Track App</h3>
-            <p class="text-gray-600">Help user know about, when will be rain.</p>
-          </div>
-        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+            <!-- Project cards with hover effects -->
+            <div class="bg-white rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-duration-300">
+                <img src="{{ asset('images/Smurf mirror.jpeg') }}" alt="Smart Mirror" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-[#1e3a8a] mb-2">Smart Mirror</h3>
+                    <p class="text-gray-600">Mirror can help human life more easily.</p>
+                </div>
+            </div>
 
-        <div class="bg-white rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-duration-300">
-          <img src="{{ asset('images/Ganyuportfolio.jpeg') }}" alt="First Portfolio" class="w-full h-48 object-cover">
-          <div class="p-6">
-            <h3 class="text-xl font-semibold text-[#1e3a8a] mb-2">My First Portfolio</h3>
-            <p class="text-gray-600">My first portfolio using Flutter.</p>
-          </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-duration-300">
+                <img src="{{ asset('images/Track.jpeg') }}" alt="Weather Track App" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-[#1e3a8a] mb-2">Flutter Weather Track App</h3>
+                    <p class="text-gray-600">Help user know about, when will be rain.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl overflow-hidden shadow-lg transform hover:scale-105 transition-duration-300">
+                <img src="{{ asset('images/Ganyuportfolio.jpeg') }}" alt="First Portfolio" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-[#1e3a8a] mb-2">My First Portfolio</h3>
+                    <p class="text-gray-600">My first portfolio using Flutter.</p>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 </section>
+
 
 <section id="contact" class="bg-[#121927] py-20">
   <div class="container mx-auto px-4 justify-center space-x-40 flex">
