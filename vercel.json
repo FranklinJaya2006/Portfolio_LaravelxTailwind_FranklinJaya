@@ -18,7 +18,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://laravel-port-fij.vercel.app",
+        "APP_URL": "https://portfolio-laravelx-tailwind-franklin-jaya.vercel.app",
         "APP_KEY": "base64:NSZzPhCuZfIqkU0I2a2Q7DcsY35wkR0NQnwDoNf3low=",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
