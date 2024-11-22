@@ -4,9 +4,6 @@
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
-    "commands": {
-      "build": "npx tailwindcss -i ./resources/css/app.css -o ./public/css/tailwind.css"
-    },
     "routes": [
         {
             "src": "/assets/(.*)",
