@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  @vite('public/build/assets/model.css')
+  @vite('resources/css/app.css')
 </head>
 <body>
 <div class="bg-blue-400">

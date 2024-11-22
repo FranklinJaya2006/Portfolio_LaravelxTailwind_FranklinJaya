@@ -10,12 +10,12 @@
             "dest": "/public/builds/assets/$1"
         },
         {
-            "src": "/(.*)",
-            "dest": "/tailwind.config.js"
-        },
-        {
             "src": "/Controllers/(.*)",
             "dest": "/app/Http/Controllers/$1"
+        },
+        {
+            "src": "/resources/css/(.*)",
+            "dest": "/resources/css/$1"
         },
         {
             "src": "/images/(.*)", 
