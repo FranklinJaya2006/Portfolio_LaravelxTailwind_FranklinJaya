@@ -1,32 +1,12 @@
 {
     "version": 2,
-    "framework": null,
-    "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.6.0" }
-    },
-    "routes": [
+    "builds": [
         {
-            "src": "/assets/(.*)",
-            "dest": "/public/builds/assets/$1"
-        },
-        {
-            "src": "/public/css/(.*)",
-            "dest": "/public/css/tailwind.css"
-        },
-        {
-            "src": "/Controllers/(.*)",
-            "dest": "/app/Http/Controllers/$1"
-        },
-        {
-            "src": "/resources/css/(.*)",
-            "dest": "/resources/css/$1"
-        },
-        {
-            "src": "/images/(.*)", 
-            "dest": "/public/images/$1"
-        },
-        { "src": "/(.*)", "dest": "/api/index.php" }
+        "src": "public/**/*",
+        "use": "@vercel/static"
+        }
     ],
+      
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
