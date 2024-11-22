@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   @vite('resources/css/app.css')
 </head>
+<link href="{{ asset('css/tailwind.css') }}" rel="stylesheet">
 <body>
 <div class="bg-blue-400">
   <header class="sticky top-0 z-50">
