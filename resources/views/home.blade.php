@@ -36,7 +36,7 @@
 </nav>
   </header>
 
-  <section id="home" class="relative isolate mx-auto flex items-center justify-center min-h-screen mt-[-100px]">
+  <section id="home" class="relative isolate mx-auto flex items-center justify-center min-h-screen mt-[-100px]" style="background-image: url('{{ asset('images/your-parallaximage.jpg') }}');">
     <div class="container mx-auto">
         <div class="flex flex-col md:flex-row items-center justify-between">
             <!-- Bagian Teks -->
