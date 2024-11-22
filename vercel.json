@@ -4,6 +4,18 @@
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
+    "builds": [
+    {
+      "src": "public/css/tailwind.css",
+      "use": "@vercel/static",
+      "config": {
+        "maxAge": 31536000
+      }
+    }
+],
+    "commands": {
+      "build": "npx tailwindcss -i ./resources/css/app.css -o ./public/css/tailwind.css"
+    },
     "routes": [
         {
             "src": "/assets/(.*)",
