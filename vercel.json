@@ -13,6 +13,10 @@
             "src": "/Controllers/(.*)",
             "dest": "/app/Http/Controllers/$1"
         },
+        {
+            "src": "/images/(.*)", 
+            "dest": "/public/images/"
+        },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "env": {
